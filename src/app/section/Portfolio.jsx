@@ -128,7 +128,7 @@ export const Portfolio = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="mb-4 text-3xl font-semibold">Portofolio Kami</h1>
+          <h1 className="mb-4 text-3xl font-semibold">Portfolio Kami</h1>
           <p
             className={`max-w-3xl mx-auto ${
               darkMode ? "text-gray-300" : "text-white/90"

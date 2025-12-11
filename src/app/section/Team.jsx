@@ -49,7 +49,7 @@ const team = [
     name: "Raden Grayninda Aghniswara Kusumaningrat",
     role: "UI/UX Designer & Co-Founder",
     image:
-      "/img/Foto Grayninda.jpeg",
+      "/img/Foto Gray.jpeg",
     bio: "Menghasilkan desain interface modern, estetis, dan berfokus pada kenyamanan serta kemudahan pengguna.",
     social_media: [
       {
