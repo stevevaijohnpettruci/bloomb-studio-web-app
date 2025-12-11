@@ -25,10 +25,9 @@ const team = [
     ],
   },
   {
-    name: "Muhammad Nurdin Alghifary Kurniawan",
+    name: "Mochamad Nurdin Al Ghifary Kurniawan",
     role: "Mobile Developer & Co-Founder",
-    image:
-      "/img/Foto Ipay.jpeg",
+    image: "/img/Foto Ipay.jpeg",
     bio: "Fokus pada pengembangan aplikasi mobile dengan performa tinggi dan pengalaman pengguna yang optimal.",
     social_media: [
       {
@@ -48,8 +47,7 @@ const team = [
   {
     name: "Raden Grayninda Aghniswara Kusumaningrat",
     role: "UI/UX Designer & Co-Founder",
-    image:
-      "/img/Foto Gray.jpeg",
+    image: "/img/Foto Gray.jpeg",
     bio: "Menghasilkan desain interface modern, estetis, dan berfokus pada kenyamanan serta kemudahan pengguna.",
     social_media: [
       {
