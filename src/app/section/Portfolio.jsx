@@ -18,24 +18,28 @@ const portfolioData = {
       title: "Website Game Developer Tasikmalaya",
       description:
         "Website profil komunitas Game Developer Tasikmalaya dengan informasi event, portofolio anggota, dan halaman komunitas interaktif.",
+      url: "https://gamedevtasikmalaya.chatomz.com/",
     },
     {
       icon: Code,
       title: "Website Kuis Interaktif Bahasa Sunda",
       description:
         "Aplikasi kuis edukasi dengan sistem skor otomatis, leaderboard, dan antarmuka interaktif untuk pembelajaran bahasa Sunda.",
+      url: "https://euy-lang.vercel.app/",
     },
     {
       icon: Code,
       title: "Website Profil Perusahaan",
       description:
         "Website company profile modern dengan desain responsif, navigasi elegan, dan struktur informasi yang profesional.",
+      url: "https://www.bloomb-studio.site/",
     },
     {
       icon: Code,
       title: "Website Penjualan Merch Band Bambootown",
       description:
         "Website katalog dan pemesanan merchandise dengan tampilan visual kreatif serta sistem order yang sederhana dan user-friendly.",
+      url: "https://bambootown-merch.vercel.app",
     },
   ],
 
@@ -45,6 +49,7 @@ const portfolioData = {
       title: "Aplikasi Penjualan Buket – PO Buket Rancah",
       description:
         "Aplikasi mobile untuk pemesanan buket lengkap dengan katalog produk, form order, dan desain minimalis yang nyaman digunakan.",
+      url: "https://po-buket-rancah.vercel.app",
     },
   ],
 
@@ -54,24 +59,14 @@ const portfolioData = {
       title: "UI/UX Mobile App IoT Monitoring – Ecoponds",
       description:
         "Desain UI/UX dashboard mobile untuk monitoring kualitas air kolam, suhu, dan parameter IoT secara real-time.",
+      url: "https://www.figma.com/design/ZCmEetq8egYP9Ql3eGnFvH/ECOPONDS?node-id=0-1&p=f",
     },
     {
       icon: Palette,
       title: "UI/UX Mobile App Pemesanan Buket – PO Buket Rancah",
       description:
         "Perancangan flow pemesanan buket dari katalog hingga checkout dengan tampilan clean dan pengalaman pengguna yang sederhana.",
-    },
-    {
-      icon: Palette,
-      title: "UI/UX Mobile App Konsultasi Perawatan Kulit – Skinverse",
-      description:
-        "Desain aplikasi konsultasi skincare dengan fitur chatbot, analisis kulit, dan rekomendasi produk yang dipersonalisasi.",
-    },
-    {
-      icon: Palette,
-      title: "UI/UX Web App Bobaly – Toko Minuman Jus",
-      description:
-        "Desain UI/UX website pemesanan minuman dengan tampilan segar, katalog produk yang menarik, dan alur pemesanan yang cepat dan intuitif.",
+      url: "https://figma.com/file/buket-ui",
     },
   ],
 
@@ -81,18 +76,7 @@ const portfolioData = {
       title: "Re-design Brand Identity Cikara Studio",
       description:
         "Rebranding visual mencakup pembuatan logo baru, palet warna, tipografi, dan brand guideline lengkap.",
-    },
-    {
-      icon: Palette,
-      title: "Brand Identity North Coffee Roastery",
-      description:
-        "Pembuatan identitas brand untuk coffee roastery mencakup logo, simbol, dan elemen visual premium.",
-    },
-    {
-      icon: Palette,
-      title: "Character Design – Pixel Art Game",
-      description:
-        "Pembuatan karakter game bergaya pixel art dengan detail ekspresi, animasi dasar, dan style konsisten.",
+      url: "https://www.instagram.com/p/DQea8aIgVho/?igsh=MTVsNjdhZzlrMDU0aQ==",
     },
   ],
 
@@ -102,6 +86,7 @@ const portfolioData = {
       title: "Wildlens AR Augmented Reality Game",
       description:
         "Game edukasi berbasis AR yang memungkinkan pemain mempelajari satwa melalui pengalaman interaktif.",
+      url: "https://bloomb-creative.itch.io/wildlens-ar",
     },
   ],
 };
@@ -221,6 +206,18 @@ export const Portfolio = () => {
                   <p className={darkMode ? "text-gray-300" : "text-gray-600"}>
                     {item.description}
                   </p>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-block mt-4 px-4 py-2 text-sm font-medium rounded-lg transition ${
+                      darkMode
+                        ? "bg-orange-500 text-white hover:bg-orange-600"
+                        : "bg-orange-100 text-orange-600 hover:bg-orange-200"
+                    }`}
+                  >
+                    Live Preview →
+                  </a>
                 </motion.div>
               );
             })}
